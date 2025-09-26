@@ -44,7 +44,7 @@ const Main = () => {
                 </div >
             </div >
             <div>
-                {data.map((apartment) => {
+                {list.map((apartment) => {
                     return <div key={apartment.id}
                         className="flex border rounded-lg shadow-lg justify-around p-4 m-4">
                         < div className="flex-shrink-0 mr-4" >
